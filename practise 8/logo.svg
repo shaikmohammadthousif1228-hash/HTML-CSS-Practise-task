@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Tasleem Restaurant logo</title>
+  <desc id="desc">An elegant deep-green and gold restaurant logo with a cloche and crescent motif.</desc>
+  <rect width="1600" height="1000" fill="#FBF7EE"/>
+  <g transform="translate(800 370)">
+    <circle r="235" fill="#0D3B35"/>
+    <circle r="212" fill="none" stroke="#D7A646" stroke-width="3"/>
+    <path d="M-128 39H128" fill="none" stroke="#E6BF6B" stroke-width="12" stroke-linecap="round"/>
+    <path d="M-105 32C-92-69-42-133 0-133S92-69 105 32" fill="none" stroke="#E6BF6B" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="0" cy="-153" r="10" fill="#E6BF6B"/>
+    <path d="M92-114c39 33 46 89 15 130-26 34-73 44-111 25 43-2 77-37 77-81 0-30-15-58-39-73 18 1 38 9 58 19Z" fill="#E6BF6B"/>
+    <path d="M-163 91C-90 142 90 142 163 91" fill="none" stroke="#E6BF6B" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-170" cy="90" r="6" fill="#E6BF6B"/><circle cx="170" cy="90" r="6" fill="#E6BF6B"/>
+  </g>
+  <text x="800" y="720" text-anchor="middle" fill="#0D3B35" font-family="Georgia, 'Times New Roman', serif" font-size="126" font-weight="700" letter-spacing="9">TASLEEM</text>
+  <path d="M510 763H693M907 763H1090" fill="none" stroke="#D7A646" stroke-width="3"/>
+  <circle cx="800" cy="763" r="5" fill="#D7A646"/>
+  <text x="800" y="817" text-anchor="middle" fill="#A67425" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="600" letter-spacing="12">RESTAURANT</text>
+</svg>

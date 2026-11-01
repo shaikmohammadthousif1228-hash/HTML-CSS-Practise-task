@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+    padding-left: 135px;
+    
+}
+.container{
+   padding: 50px;
+   padding-left: 125px;
+   margin: 5px;
+   
+   
+}
+.subject{
+    max-width: 125vh;
+    min-height: 350px;
+    background-image: url("login.jpeg");
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border: 1PX solid #000;
+    border-radius: 10PX;
+}
+.more{
+    padding-left: 40px;
+}
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.top{
+    padding: 10px;
+}
+.mid{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.fot{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 2.5em;
+    width: 15.5em;
+}
+a{
+    padding-left: 45px;
+}
+button{
+    height: 2.5em;
+    width: 15.5em;
+    border-radius: 10PX;
+}
+
+.sore{
+    padding-right: 10px;
+}
+.sum{
+    
+}
+p{
+    padding: 10PX;
+    padding-left: 0;
+    white-space: pre-line;
+    font-family: monospace;
+}

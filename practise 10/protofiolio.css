@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.container{
+
+}
+.subject{
+    padding: 10px 0;
+    margin: 0;
+    color: #fff;
+    border:1px solid #000;
+    background-color: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: space-between;
+    flex-direction: row;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+button{
+    font-family: monospace;
+    font-size: medium;
+    text-align: center;
+    text-transform: capitalize;
+    color: aliceblue;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    width: 10.5em;
+    height: 3.5em;
+}
+.object{
+    padding: 3em;
+    margin: 1ox;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    gap : 25px;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    padding: 10px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    
+}
+p {
+   white-space: pre-line;
+  
+}
+.sore{
+    padding: 1.5em 1.5em 1.5em 0;
+}
+.contact{
+    padding: 0.5em;
+    color: blue;
+    background-color: #fff;
+    border: 1.5px solid blue;
+}
+.logo{
+    padding: 1.5em 1.5em 1.5em 0;
+    display: flex;
+    gap:25px
+
+}
+.topic{
+    padding: 5px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+h3{
+    background-color: aliceblue;
+}
+.core{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    background-color: aliceblue;
+    border-bottom:1px solid #000 ;
+}
+.foot{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #181717;
+
+
+}
+i {
+  font-size: 49px;
+  margin: 8px;
+}
+
+.html, .git { color: #f1502f; }
+.css { color: #2965f1; }
+.js { color: #f7df1e; }
+.bootstrap { color: #7952b3; }
+.github { color: #181717; }

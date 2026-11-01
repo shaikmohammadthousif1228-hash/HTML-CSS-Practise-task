@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+body{
+    padding: 25px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbf5f5;
+}
+.container{
+   padding: 10px;
+   max-width: 650px;
+   max-height: 750px;
+   background-color: #fcfbfc;
+   border: 1px solid #000;
+   border-radius: 15px;
+}
+.top{
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.pic{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.mid{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.sub{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 10px;
+    
+}
+.sub i{
+    font-size: 25px;
+    PADDING: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+   
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+button{
+   padding: 10px;
+   margin: 2px;
+   width: 100px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 15px;
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+button:active{
+    background-color: #f8eeec;
+    color: #000;
+}
+.fot{
+    padding: 10px;
+    
+}

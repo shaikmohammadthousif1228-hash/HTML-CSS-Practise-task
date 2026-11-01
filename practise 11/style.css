@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   flex-shrink: 1;
+   background-color:azure;
+   border:  1px solid azure;
+   padding: 8px;  
+}
+.top{
+    display: inline-flex;
+}
+.header .top i{
+    color: #000;
+    font-size: 35px;
+}
+.top span{
+    color: blue;
+}
+.top ul{
+    font-size: 14px;
+    list-style: disc;
+    display: inline-flex;
+    gap: 15px;
+}
+
+.mid ul{
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    list-style-type: none;
+    display: inline-flex;
+    gap : 20px ;
+}
+.header .las{
+  padding: 15px;
+}
+.header button{
+    height: 35px;
+    width: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #2a08eb;
+    color: #fff;
+    border: 1px solid #2a08eb;
+    border-radius: 20px;
+}
+.header button:hover{
+    background-color: #2a08ebf0;
+    color: black;
+}
+.header button:active{
+    background-color: #2706e1e6;
+    color: rgba(253, 252, 252, 0.886);
+}
+
+
+.container .lo{
+    width: 100%;
+    height: 300px ;
+    background-image: url('12.jpg');
+    background-position: 20%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.container .lo .lov{
+    padding: 65px 65px;
+}
+.container .lo .lov h1{
+    font-family: monospace;
+    font-size: 45px;
+}
+.container .lo .lov h5{
+    padding: 10px;
+    font-size: 20px;
+}
+.container .lo .lov button{
+    padding: 10px 25px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #2a08eb;
+    color: #fff;
+    border: 1px solid #2a08eb;
+    border-radius: 20px;
+}
+.container .lo .lov button i{
+    font-size: 16px;
+}
+.container .lo .lov button:hover{
+    background-color: #2a08ebf0;
+    color: black;
+}
+.container .lo .lov button:active{
+    background-color: #2706e1e6;
+    color: rgba(253, 252, 252, 0.886);
+}
+.container .midder{
+    padding: 8px;
+    border:  2px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+.container .midder .fi{
+    display: inline-flex;
+    gap: 10px;
+}
+.container .midder section{
+    padding-right: 45px;
+    border-right:  1px solid #000;
+}
+.container .midder .fi i{
+    padding: 5px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    
+}
+.fott{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.sub .con .a{
+    display: flex;
+    justify-content: space-between;
+}
+.sub .con .a a{
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+} 
+.sub .im{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sub .im img{
+    width: 250px;
+    height: 200px;
+    border-radius: 12px;
+}
+.fot{
+    padding: 10px;
+    border: 1px solid hsla(241, 94%, 46%, 0.3);
+    border-radius: 12px;
+    background-color: hsla(241, 94%, 46%, 0.3);
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+
+}
+
+.foot{
+    
+    display: flex;
+    flex-direction: row;
+}
+.foot i{
+    font-size: 45px;
+}
+.fot button{
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+.fot button:hover{
+    background-color: hsla(271, 81%, 56%, 0.2);
+    color: black;
+}
+.fot button:focus{ 
+    background-color: #2a08eb;  
+    color: #fff;
+}
+
+.fot button i{
+   
+    font-size: 15px;
+}
+.container .poi{
+    padding: 10px 15px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+}
+.container .poi h1 , i {
+    color: #fff;
+     font-size: 35px;
+}
+.container .poi .top li{
+    color: #a89b9b;
+}
+.container .poi .po .op{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    gap: 10px;
+}
+.container .poi h4{
+    padding-top: 5px;
+    color: #fff;
+}

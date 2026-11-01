@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+header{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    color: black;
+}
+h1{
+    padding-bottom: 5px;
+    font-family: monospace;
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+.container{
+    padding: 15px;
+    
+}
+figure{
+    
+    padding-left: 5em;
+    margin: 2px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+.image1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.image5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.image9{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.image11{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.image13{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
