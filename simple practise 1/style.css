@@ -1,0 +1,39 @@
+h2{
+    font-color:rgb(240, 11, 22);
+    font-family:Georgia;
+    font-size:40px;
+    padding:20px;
+    margin:10px;
+    text-align:center;
+    text-transform:capitalize;
+    border-style:groove;
+    border-radius:20px;
+    border-color:goldenrod;
+    border-width:10px;
+    background-color:rgb(222,89,76);
+}
+ul li{
+    font-color:blue;
+    font-family:monospace;
+    font-size:3em;
+    border-style:outset;
+    border-color:greenyellow;
+    border-width:10px;
+    margin:10px;
+    border-radius:20px;
+    padding:15px;
+    outline-style:offset;
+    list-style-type:none;
+    background-color:orange;
+    text-align:center;
+}
+ 
+li a:focus{
+    color:seashell;
+    background-color:saddlebrown;
+    border-style:inset;
+    cursor:pointer;
+}
+li a:hover{
+    color:skyblue;
+}
